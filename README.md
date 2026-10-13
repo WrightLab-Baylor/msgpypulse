@@ -1,7 +1,7 @@
 # Introdcution
 
 ## msgpypulse
-* msgpypulse is a python module to analyse MS-GF+ results after PHRP & MASIC merger
+* msgpypulse is a python module to analyze MS-GF+ results after PHRP & MASIC merger
 
 * A custom build pipeline and can be run in a single command.
 
@@ -202,5 +202,21 @@ If you use msgpypulse in your research, please cite:
   group=Wright Lab, Baylor University
   year={2025},
   url={https://github.com/WrightLab_Baylor/msgpypulse}
+}
+```
+
+This packages also uses cd-hit; cite cd-hit if you use cluster-crosstab option
+
+```
+@article{li2006cdhit,
+  author = {Li, Weizhong and Godzik, Adam},
+  title = {Cd-hit: a fast program for clustering and comparing large sets of protein or nucleotide sequences},
+  journal = {Bioinformatics},
+  volume = {22},
+  number = {13},
+  pages = {1658--1659},
+  year = {2006},
+  publisher = {Oxford University Press},
+  doi = {10.1093/bioinformatics/btl158}
 }
 ```
