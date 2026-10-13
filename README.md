@@ -25,6 +25,7 @@ msgpypulse is a Python-based CLI tool that automates the complete MS-GF+ downstr
 
 ```bash
 python >= 3.8
+pip
 ```
 
 ### Install from Source
