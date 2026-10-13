@@ -37,7 +37,7 @@ pip install msgpypulse
 ### Install from Source
 
 ```bash
-git clone https://github.com/thulasis/msgpypulse.git
+git clone https://github.com/WrightLab-Baylor/msgpypulse.git
 cd msgpypulse
 pip install -e .
 ```
@@ -119,7 +119,7 @@ msgpypulse_cli.py \
   -o ./results/final_proteins.tsv \
   --database ./data/database.fasta \
   --score_field MSMSScore \
-  --threshold 20 \
+  --threshold 10 \
   --score_field2 EValue \
   --threshold2 0.01 \
   --num_pep 3 \
@@ -140,7 +140,6 @@ from msgpypulse_cli import MSGFPDOWNPipeline
 pipeline = MSGFPDOWNPipeline()
 pipeline.fdr_estimator(input_dir="./data/SICs", output_dir="./results/fdr_estd")
 ```
-
 
 ## Dependencies
 
@@ -184,8 +183,8 @@ pipeline.fdr_estimator(input_dir="./data/SICs", output_dir="./results/fdr_estd")
 
 ### Getting Help
 
-- **GitHub Issues**: [Report bugs or request features](https://github.com/thulasis/msgpypulse/issues)
-- **Discussions**: [Community discussions](https://github.com/thulasis/msgpypulse/discussions)
+- **GitHub Issues**: [Report bugs or request features](https://github.com/WrightLab-Baylor/msgpypulse/issues)
+- **Discussions**: [Community discussions](https://github.com/WrightLab-Baylor/msgpypulse/discussions)
 - **Email**: tulasi_relangi@baylor.edu
 
 ## License
@@ -197,11 +196,11 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 If you use msgpypulse in your research, please cite:
 
 ```
-@misc{thulasis2025msgpypulse,
-  title={msgpypulse: A comprehensive MS-GF+ downstream analysis pipeline},
+@misc{TulasiRelangi2025msgpypulse,
+  title={msgpypulse: A comprehensive MS-GF+MASIC downstream analysis pipeline},
   authors={Tulasi Rao Relangi, PhD},{Harrison Hall, Graduate Student}
   group=Wright Lab, Baylor University
   year={2025},
-  url={https://github.com/thulasis/msgpypulse}
+  url={https://github.com/WrightLab_Baylor/msgpypulse}
 }
 ```
