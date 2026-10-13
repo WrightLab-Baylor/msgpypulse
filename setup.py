@@ -9,7 +9,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'msgpypulse=scripts.msgpypulse_cli:main',        # Calls main() in msgpypulse_cli.py
+            'msgpypulse=scripts.msgpypulse_cli:main',  # Calls main() in msgpypulse_cli.py
             'msgpypulse-gui=scripts.msgpypulse_gui:main', # Calls main() in msgpypulse_gui.py
         ],
     },
