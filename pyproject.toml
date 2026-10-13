@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=72.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "msgpypulse"
+version = "4.1.1"
+description = "MSGF+ downstream analysis module"
+authors = [
+    { name = "Tulasi Relangi & Harrison Hall", email = "tulasi_relangi@baylor.edu" }
+]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = []
+
+[project.scripts]
+msgpypulse = "scripts.msgpypulse_cli:main"
+msgpypulse-gui = "scripts.msgpypulse_gui:main"
+
+[tool.setuptools]
+packages = ["scripts"]
